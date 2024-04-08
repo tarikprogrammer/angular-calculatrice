@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    height: 100vh;
+    background-image: url('./assets/calc.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

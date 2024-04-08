@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="display">
+        <div>{{funcT}}</div>
+        {{calcVal}}
+    </div>
+    <div class="body-calculator">
+       <button class="AC" type="button" (click)="OnclickValue('AC','function')">AC</button>
+       <button class="AC" type="button" (click)="OnclickValue('delete','function')"><i class="fa-solid fa-delete-left"></i></button>
+       <button class="operation" type="button" (click)="OnclickValue('/','function')">/</button>
+       <button class="operation" type="button" (click)="OnclickValue('*','function')">*</button>
+       <button type="button" class="number" (click)="OnclickValue('7','number')">7</button>
+       <button type="button" class="number" (click)="OnclickValue('8','number')">8</button>
+       <button type="button" class="number" (click)="OnclickValue('9','number')">9</button>
+       <button class="operation" type="button" (click)="OnclickValue('-','function')">-</button>
+       <button type="button" class="number" (click)="OnclickValue('4','number')">4</button>
+       <button type="button" class="number" (click)="OnclickValue('5','number')">5</button>
+       <button type="button" class="number" (click)="OnclickValue('6','number')">6</button>
+       <button class="operation plus" type="button" (click)="OnclickValue('+','function')">+</button>
+       <button type="button" class="number" (click)="OnclickValue('1','number')">1</button>
+       <button type="button" class="number" (click)="OnclickValue('2','number')">2</button>
+       <button type="button" class="number" (click)="OnclickValue('3','number')">3</button>
+       <button type="button" class="number zero" (click)="OnclickValue('0','number')">0</button>
+       <button type="button" class="number" (click)="OnclickValue('.','number')">.</button>
+       <button class="operation equal" type="button" (click)="OnclickValue('=','function')">=</button>
+    </div>
+</div>
