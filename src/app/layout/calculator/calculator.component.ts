@@ -61,7 +61,7 @@ export class CalculatorComponent {
         }
        }
        else if(this.funcT=='*'){
-        const total=this.FirstNumber + this.SecondNumber;
+        const total=this.FirstNumber * this.SecondNumber;
         this.calcVal=total;
         this.FirstNumber=total;
         this.SecondNumber=0;
